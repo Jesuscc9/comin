@@ -1,0 +1,88 @@
+# Archivos y carpetas de Python
+*.py[cod]
+__pycache__/
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Configuración de entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Archivos de configuración de herramientas
+*.log
+*.coverage
+.coverage.*
+.cache
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+
+# Configuración de IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Configuración de dependencias específicas
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Documentación generada
+docs/_build/
+site/
+
+# Archivos de bases de datos o dumps
+*.db
+*.sql
+*.sqlite
+
+# Archivos generados por pruebas
+*.testresult
+*.xml
+
+# Node.js (por si hay subproyectos que incluyan JS)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+*.env
+.dockerignore
+
+# Ignorar carpetas específicas de proyectos individuales
+project1/.venv/
+project2/.venv/
+project3/.venv/
+
+# Cualquier otro archivo temporal o de configuración
+*.tmp
+*.bak
+*.orig
+*.old
+*.rej
+*~
+
